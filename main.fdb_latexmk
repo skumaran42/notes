@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1683550866 "main.tex" "main.pdf" "main" 1683550867 0
+["pdflatex"] 1683551516 "main.tex" "main.pdf" "main" 1683551517 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -24,6 +24,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd" 1667332637 2430 8418b3f1835e588625becbcac4dbce56 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1673989714 32346 879686206fa618f4f5073ad4bd48feda ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/memoir/mem10.clo" 1659128422 4184 029c4bb5f918651cccc3fd1b9fd1637d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/memoir/memoir.cls" 1668718862 410814 93f56298fcef3843a8c1167e2bbbefee ""
@@ -37,9 +38,9 @@
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1680954377 10502821 688b819325dae33b07c5e87bfad9fec8 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "chapter1.tex" 1683550864 3015 02ae5e220e0d28bfcd9d9b5762c71491 ""
-  "main.aux" 1683550866 433 8c10b9a8442f3b3fd9b148abdac26962 "pdflatex"
-  "main.tex" 1683550174 539 171632617faef242234a66422cfd3097 ""
-  "main.toc" 1683550866 66 6b43f07240f2b5f7bd01dd944b262888 "pdflatex"
+  "main.aux" 1683551517 433 0996090af9eaa03f0a515d81806376d8 "pdflatex"
+  "main.tex" 1683551516 666 a59460897590314813d54a1d7529fba2 ""
+  "main.toc" 1683551517 66 6b43f07240f2b5f7bd01dd944b262888 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

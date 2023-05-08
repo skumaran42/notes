@@ -1,5 +1,9 @@
 \documentclass{memoir}
-\usepackage{amsmath, amsthm, outlines, enumitem}
+\usepackage{amsmath, amsthm, outlines, enumitem, fancyhdr}
+
+\title{Notes}
+\author{Santhosh Kumaran}
+\date{}
 
 %calculation of the length needed to correct the vertical position
 \newlength{\mylen}
@@ -11,9 +15,10 @@
 \newtheorem{theorem}{Theorem}[chapter]
 \renewcommand\qedsymbol{QED}
 
-\title{Notes}
-\author{Santhosh Kumaran}
-\date{}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{NOTES}
 
 \begin{document}
    
@@ -23,5 +28,7 @@
 
 \mainmatter
 \input{chapter1.tex}
+\newpage
+Lorem ipsum dolor sit amet.
 
 \end{document}
