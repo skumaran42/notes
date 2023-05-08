@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.8)  8 MAY 2023 17:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.8)  8 MAY 2023 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -405,55 +405,71 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip194
 \thm@headsep=\skip195
 \dth@everypar=\toks34
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/outlines/outlines.sty
+Package: outlines 2012/1/23 1.1 Ch. Pecheur
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks35
+\labelindent=\skip196
+\enit@outerparindent=\dimen196
+\enit@toks=\toks36
+\enit@inbox=\box58
+\enit@count@id=\count318
+\enitdp@description=\count319
+)
+\mylen=\skip197
+\c@theorem=\count320
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
-\g__graphics_track_int=\count318
-\l__pdf_internal_box=\box58
-\g__pdf_backend_object_int=\count319
-\g__pdf_backend_annotation_int=\count320
-\g__pdf_backend_link_int=\count321
+\g__graphics_track_int=\count321
+\l__pdf_internal_box=\box59
+\g__pdf_backend_object_int=\count322
+\g__pdf_backend_annotation_int=\count323
+\g__pdf_backend_link_int=\count324
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 18.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
  (./main.toc) [1
 
 
 ] [2
 
-] (./chapter1.tex) [1
+] (./chapter1.tex [1
 
-]
+]) [2]
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
  (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5110 strings out of 476683
- 74456 string characters out of 5804048
- 1845018 words of memory out of 5000000
- 25361 multiletter control sequences out of 15000+600000
- 516234 words of font info for 56 fonts, out of 8000000 for 9000
+ 5576 strings out of 476683
+ 82600 string characters out of 5804048
+ 1854018 words of memory out of 5000000
+ 25808 multiletter control sequences out of 15000+600000
+ 516266 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 54i,11n,62p,200b,230s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 54i,11n,62p,326b,396s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (4 pages).

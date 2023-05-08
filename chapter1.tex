@@ -1,3 +1,45 @@
 \chapter{Real Numbers}
 
-
+\begin{outline}
+    \1 \myvspace 
+    \begin{theorem}[Euclid's Division Lemma]
+        Given two positive integers $a$ and $b$, there exist unique whole numbers satisfying $a = bq + r, 0 \le r < b$.
+    \end{theorem}
+    \1 \textit{Euclid's division algorithm}: In order to compute the HCF of two positive integers, say $a$ and $b$, with $a > b$, we take the following steps:
+    \2 Apply Euclid's division algorithm to $a$ and $b$. and obtain whole numbers $q_1$ and $r_1$ such that $a = bq_1 + r_1, 0 \le r_1 < b$.
+    \2 If $r_1 = 0$, $b$ is the HCF of $a$ and $b$.
+    \2 If $r_1 \ne 0$, apply Euclid's division lemma to $b$ and $r_1$ and obtain whole numbers $q_2$ and $r_2$ such that $b = r_1q_2 + r_2$.
+    \2 If $r_2 = 0$, then $r_1$ is the HCF of $a$ and $b$.
+    \2 If $r_2 \ne 0$, then apply Euclid's division lemma to $r_1$ and $r_2$ and continue the above process until the remainder $r_n$ is zero. The divisor at this stage, i.e. $r_{n - 1}$, or the non-zero remainder at the previous stage, is the HCF of a and b. \vfill
+    \1 \myvspace
+    \begin{theorem}[The Fundamental Theorem of Arithmetic]
+        Every composite number can be expressed as a product of primes, and this factorisation is unique apart from the order in which the prime factors occur.
+    \end{theorem}
+    \1 Every composite number can be uniquely expressed as a product of powers of primes in ascending or descending order.
+    \1 The HCF of two or more numbers is the product of the smallest powers of each of the numbers' common prime factors.
+    \1 The LCM of two or more numbers is the product of the greatest powers of each of the numbers' prime factors.
+    \1 For any two positive integers $a$ and $b$, $ab$ = $\text{HCF}(a, b) \times \text{LCM}(a, b)$ \newpage
+    \1 \myvspace 
+    \begin{theorem}
+        Let $a$ be a positive integer and $p$ be a prime number. If $p$ divides $a^2$, then $p$ divides $a$. \label{thm:prime}
+    \end{theorem}
+    \1 If $p$ is a prime number, then $\sqrt{p}$ is an irrational number.
+    \begin{proof}
+        Assume, to the contrary, that $\sqrt{p}$ is a rational number and express it thus:
+        $$\sqrt{p} = \frac{a}{b}$$
+        where $a$ and $b$ are co-prime integers and $q \ne 0$. Next, isolate $a$ and square the equation:
+        \begin{align}
+            b\sqrt{p} &= a \\
+            pb^2 &= a^2 \label{eq:irr}
+        \end{align}
+        Since $p$ divides $a^2$, $p$ divides $a$ (as per Theorem \ref{thm:prime}). Therefore,
+        $$a = pc$$
+        for some integer $c$. Substitute for $a$ in Equation \ref{eq:irr}:
+        \begin{align*}
+            pb^2 &= (pc)^2 \\
+            pb^2 &= p^2c^2 \\
+            b^2 &= pc^2
+        \end{align*}
+        Since $p$ divides $b^2$, $p$ divides $b$ (as per Theorem \ref{thm:prime}). $p$ is a common factor of $a$ and $b$ This contradicts the fact that $a$ and $b$ are co-prime. Our assumption that $\sqrt{p}$ is rational is incorrect. Hence, $\sqrt{p}$ is irrational.
+    \end{proof}
+\end{outline}

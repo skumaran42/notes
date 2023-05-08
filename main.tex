@@ -1,5 +1,15 @@
 \documentclass{memoir}
-\usepackage{amsmath, amsthm}
+\usepackage{amsmath, amsthm, outlines, enumitem}
+
+%calculation of the length needed to correct the vertical position
+\newlength{\mylen}
+\addtolength{\mylen}{\baselineskip}
+\addtolength{\mylen}{\topsep}
+%definition of the command
+\newcommand\myvspace{\rule{0pt}{1pt}\vspace*{-\mylen}}
+
+\newtheorem{theorem}{Theorem}[chapter]
+\renewcommand\qedsymbol{QED}
 
 \title{Notes}
 \author{Santhosh Kumaran}
