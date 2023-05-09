@@ -1,9 +1,15 @@
 \documentclass{memoir}
-\usepackage{amsmath, amsthm, outlines, enumitem, fancyhdr}
+\usepackage{lipsum, amsmath, amsthm, outlines, enumitem, hyperref, fancyhdr}
 
-\title{Notes}
+\pretitle{\begin{center}\Huge\bfseries}
+\title{NCERT Notes}
+\posttitle{\par\vskip1em{\normalfont\normalsize\scshape On Mathematics and Science (Class 10) \par\vfill}\end{center}}
 \author{Santhosh Kumaran}
 \date{}
+
+\makeatletter
+\@addtoreset{chapter}{part}
+\makeatother
 
 %calculation of the length needed to correct the vertical position
 \newlength{\mylen}
@@ -15,20 +21,43 @@
 \newtheorem{theorem}{Theorem}[chapter]
 \renewcommand\qedsymbol{QED}
 
-\pagestyle{fancy}
-\fancyhead{}
-\fancyhead[CE]{\leftmark}
-\fancyhead[CO]{NOTES}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue
+}
 
+\newcommand*\parttitle{}
+\let\origpart\part
+\renewcommand*{\part}[2][]{%
+\ifx\\#1\\% optional argument not present?
+  \origpart{#2}%
+  \renewcommand*\parttitle{#2}%
+\else
+  \origpart[#1]{#2}%
+  \renewcommand*\parttitle{#1}%
+\fi
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[CE]{\scshape\nouppercase \leftmark}
+\fancyhead[CO]{\scshape\nouppercase \parttitle}
+\fancyfoot[C]{\thepage}
 \begin{document}
    
 \frontmatter
+\begin{titlingpage}
 \maketitle
+\end{titlingpage}
+\newpage
 \tableofcontents*
 
 \mainmatter
-\input{chapter1.tex}
-\newpage
-Lorem ipsum dolor sit amet.
+\part{Mathematics}
+\input{mchapter1.tex}
+\input{mchapter2.tex}
+
+\part{Science}
+\input{schapter1.tex}
 
 \end{document}

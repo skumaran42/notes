@@ -1,1 +1,5 @@
-\contentsline {chapter}{\chapternumberline {1}Real Numbers}{1}{}%
+\contentsline {part}{\partnumberline {I}Mathematics}{1}{part.1}%
+\contentsline {chapter}{\chapternumberline {1}Real Numbers}{3}{chapter.1.1}%
+\contentsline {chapter}{\chapternumberline {2}Polynomials}{5}{chapter.1.2}%
+\contentsline {part}{\partnumberline {II}Science}{7}{part.2}%
+\contentsline {chapter}{\chapternumberline {1}Chemical Reactions and Equations}{9}{chapter.2.1}%
