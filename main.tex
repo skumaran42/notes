@@ -1,6 +1,11 @@
 \documentclass{memoir}
-\usepackage{lipsum, amsmath, amsthm, outlines, hyperref, fancyhdr}
+\usepackage{amsmath, amsthm, outlines, hyperref, fancyhdr, fontspec, eulervm}
 \usepackage[inline]{enumitem}
+\usepackage{chemformula}
+
+\setmainfont{CMU Concrete}
+
+\maxsecnumdepth{subsection}
 
 \pretitle{\begin{center}\Huge\bfseries}
 \title{NCERT Notes}
@@ -41,8 +46,9 @@ linkcolor=blue
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[CE]{\scshape\nouppercase \leftmark}
-\fancyhead[CO]{\scshape\nouppercase \parttitle}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[LE]{\scshape\nouppercase \leftmark}
+\fancyhead[RO]{\scshape\nouppercase \parttitle}
 \fancyfoot[C]{\thepage}
 \begin{document}
    
